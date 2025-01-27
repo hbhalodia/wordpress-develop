@@ -1316,7 +1316,7 @@ a:active {
 }
 
 .site .skip-link:focus {
-	clip: auto;
+	clip-path: none;
 	height: auto;
 	left: 6px;
 	top: 7px;
