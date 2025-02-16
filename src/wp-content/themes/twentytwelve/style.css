@@ -1611,7 +1611,6 @@ img#wpstats {
 		height: 1px;
 		width: 1px;
 		overflow: hidden;
-		clip: rect(1px, 1px, 1px, 1px); /* IE6, IE7 */
 		clip-path: inset(50%);
 	}
 	.main-navigation li ul ul {
@@ -1623,6 +1622,7 @@ img#wpstats {
 	.main-navigation .focus > ul {
 		border-left: 0;
 		clip: inherit;
+		clip-path: none;
 		overflow: inherit;
 		height: inherit;
 		width: inherit;

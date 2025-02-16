@@ -921,7 +921,6 @@ div.nav-menu > ul {
 	height: 1px;
 	width: 1px;
 	overflow: hidden;
-	clip: rect(1px, 1px, 1px, 1px); /* IE6, *IE7 */
 	clip-path: inset(50%);
 }
 
@@ -951,6 +950,7 @@ ul.nav-menu li:hover > ul,
 ul.nav-menu .focus > ul,
 .nav-menu .focus > ul {
 	clip: inherit;
+	clip-path: none;
 	overflow: inherit;
 	height: inherit;
 	width: inherit;
@@ -3150,7 +3150,7 @@ footer.entry-meta {
 		font-weight: normal;
 	}
 	.site-description {
-	    clip: rect(1px, 1px, 1px, 1px);
+		clip-path: inset(50%);
 	    position: absolute;
 	}
 	.gallery {

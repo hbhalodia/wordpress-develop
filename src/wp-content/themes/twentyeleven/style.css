@@ -747,8 +747,7 @@ a.assistive-text:focus,
 	border-bottom: none;
 }
 .blog .sticky .entry-header .entry-meta {
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
 	position: absolute !important;
 }
 .entry-title,
@@ -1445,8 +1444,7 @@ section.featured-post .hentry {
 	margin: 0;
 }
 section.featured-post .entry-meta {
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
 	position: absolute !important;
 }
 
