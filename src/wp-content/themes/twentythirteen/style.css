@@ -949,7 +949,6 @@ ul.nav-menu li:hover > ul,
 .nav-menu ul li:hover > ul,
 ul.nav-menu .focus > ul,
 .nav-menu .focus > ul {
-	clip: inherit;
 	clip-path: none;
 	overflow: inherit;
 	height: inherit;
