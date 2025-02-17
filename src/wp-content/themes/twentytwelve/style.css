@@ -1621,7 +1621,6 @@ img#wpstats {
 	.main-navigation ul li:focus > ul,
 	.main-navigation .focus > ul {
 		border-left: 0;
-		clip: inherit;
 		clip-path: none;
 		overflow: inherit;
 		height: inherit;

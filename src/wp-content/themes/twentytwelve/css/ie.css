@@ -112,7 +112,7 @@ body.full-width .site-content {
 	height: 1px;
 	width: 1px;
 	overflow: hidden;
-	clip-path: inset(50%);
+	clip: rect(1px, 1px, 1px, 1px);
 }
 .ie7 .main-navigation li ul {
 	clip: inherit;
@@ -130,7 +130,6 @@ body.full-width .site-content {
 .main-navigation .focus > ul {
 	border-left: 0;
 	clip: inherit;
-	clip-path: none;
 	overflow: inherit;
 	height: inherit;
 	width: inherit;
